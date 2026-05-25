@@ -1,0 +1,27 @@
+## 🤔 What is this?
+Just some agent skills I hacked together to run [MLE-bench](https://github.com/openai/mle-bench). 
+Mostly a record of my dark history wrestling with AI agents. There's a lot of duct-taped code here just to meet deadlines. It probably won't run, or if it does, the performance is absolute trash.
+
+## 📂 What's inside?
+- A bunch of scripts with probably hidden bugs.
+- Test docs (some might still contain my 3 AM mental breakdown comments).
+- `mission_skills/`: The main code lives here, but I haven't figured out how to refactor it elegantly yet. The current architecture is basically spaghetti 🍝.
+
+## 🚀 How to run? (Mostly writing this so I don't forget)
+1. Clone this mess:
+   ```bash
+   git clone git@github.com:Celsia-Typo/mle-skill.git
+
+```
+
+2. Install dependencies (honestly I forgot exactly what's required, just `pip install` whatever it complains about...)
+3. Close your eyes, put your hands together, run the tests, and pray you don't get another `IndexError` or `KeyError`.
+
+## 📝 Note to self
+
+* [x] Setup basic environment
+* [x] FINALLY got the first demo running!! 🎉
+* [ ] **ABSOLUTELY, POSITIVELY MUST remember to delete the hardcoded API Tokens in the code!!!** (GitHub already sent me a warning email, save me)
+* [ ] Delete the hundreds of `print("here 1")`, `print("here 2")`, `print("why is it not working")` scattered everywhere.
+* [ ] Figure out what those weird tracebacks actually mean...
+* [ ] Learn how to write proper git commit messages when I have time. Stop pushing "update" and "fix bug" for everything.
